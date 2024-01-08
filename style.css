@@ -45,10 +45,16 @@
 .list-item {
   list-style: none;
 }
-.add-task-form__input,.item-checkbox,.item-text,.add-task-form__button,.edit-button,.remove-button{
+.add-task-form__input,
+.item-checkbox,.item-text,
+.add-task-form__button,
+.edit-button,
+.remove-button {
   outline: none;
 }
-.add-task-form__button,.edit-button,.remove-button {
+.add-task-form__button,
+.edit-button,
+.remove-button {
   background: none;
   border: 0px;
   color: #888;
@@ -63,7 +69,7 @@
   color: #3a3a3a;
 }
 .todo-list__title,
-.completed-list__title
+.completed-list__title,
 .add-task-form__label {
   color: #333;
   font-weight: 700;
